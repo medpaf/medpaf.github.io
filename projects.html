@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>medpaf | Projects</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+    <nav id="nav">
+        <div class="navWrapper">
+            <ul class="navMenuItems">
+                <a href="index.html"><li>Home</li></a>
+                <a href="projects.html"><li class="currentPage">Projects</li></a>
+                <a href="about.html"><li>About</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+            </ul>
+            <ul class="languageMenu">
+                <a><li class="currentLanguage">EN</li></a>
+                <a href="../pt/index-pt.html"><li>PT</li></a>
+            </ul>
+            <button id="btn-ham" class="buttonHam">
+                <span class="ham"></span>
+            </button>
+        </div>
+        <div class="colorBar"></div>
+    </nav>
+
+    <div class="content">
+        <div class="projectsSectionContainer">
+            <div class="projectsSection">
+                <h1>Projects</h1>
+                <p>Here is all my work. Unless strictly stated otherwise, all projects were completely done by me.</p>
+            
+                <main class="projectBoxesContainer">
+
+                    <div class="projectBox">
+                        <div class="projectBoxTopContainer">
+                            <h2>VBNetS</h2>
+                            <p class="highSec2">2021</p>
+                            <br>
+                            <p>Python script developed to perform network scans. This project is a CLI program intended to be used on Linux systems.</p>
+                            <br>
+                            <p>Apart from SYN, UDP, ACK, TCP and complete scans and banner grabbing, it also supports network administration and troubleshooting utilities such as interface configuration, DNS checks and ping.</p>
+                            <br>
+                        </div>
+                        <div class="projectBoxBottomContainer">
+                            <div class="buttonContainer"><a href="https://github.com/medpaf/vbnets" target="_blank"><button class="githubRepoButton">GitHub repository</button></a></div>
+                            <br>
+                            <p>Technologies</p>
+                            <ul class="techList">
+                                <li>Python</li>
+                                <li>Nmap</li>
+                                <li>Socket</li>
+                                <li>Linux</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="projectBox">
+                        <div class="projectBoxTopContainer">
+                            <h2>Face mask detection system</h2>
+                            <p class="highSec2">2021</p>
+                            <br>
+                            <p>Computer vision and machine learning application implemented in Python to detect masks in one or more faces.</p>
+                            <br>
+                            <p>Supports detection in static images and webcam video streams. Libraries such as TensorFlow, Keras and OpenCV were used in this project.</p>
+                            <br>
+                        </div>
+                        <div class="projectBoxBottomContainer">
+                            <div class="buttonContainer"><a href="https://github.com/medpaf/face-mask-detector" target="_blank"><button class="githubRepoButton">GitHub repository</button></a></div>
+                            <br>
+                            <p>Technologies</p>
+                            <div class="techListContainer">
+                                <ul class="techList">
+                                    <li>Python</li>
+                                    <li>TensorFlow</li>
+                                    <li>Keras</li>
+                                    <li>OpenCV</li>
+                                
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                
+                    <div class="projectBox">
+                        <div class="projectBoxTopContainer">
+                            <h2>CBIR system</h2>
+                            <p class="highSec2">2020</p>
+                            <br>
+                            <p>Image processing and computer vision application developed in Python and with OpenCV implemented. This content-based image retrieval system uses the histogram of each image as descriptor.</p>
+                            <br>
+                        </div>
+                        <div class="projectBoxBottomContainer">
+                            <div class="buttonContainer"><a href="https://github.com/medpaf/cbir" target="_blank"><button class="githubRepoButton">GitHub repository</button></a></div>
+                            <br>
+                            <p>Technologies</p>
+                            <ul class="techList">
+                                <li>Python</li>
+                                <li>OpenCV</li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </main>
+            
+            
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        Paulo Medeiros &#9400; 2021. All Rights Reserved
+    </div>
+
+    <script src="js/ham.js"></script>
+
+
+</body>
+</html>
